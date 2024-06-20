@@ -1,0 +1,52 @@
+literalTests()
+--------------
+CENG114
+17
+3.5
+true
+
+variableTests()
+---------------
+str1 = CENG117
+str2 = CENG114
+str1 = CENG114
+str2 = CENG114
+i = 4
+d = 10.11
+b = false
+
+arithmeticExpressioTest()
+-------------------------
+e2 = 7.5
+e3 = 4
+e5 =  is five
+5 + e2 = 12.5
+5 + e3 = 9
+5 + e5 = 5 is five
+e2 - e3 = 3.5
+e2 * e3 = 30
+e2 / 2.5 = 3
+5 + (e2 / 2.5) = 8
+-e3 = -4
+
+logicalExpression()
+-------------------
+b2 = false
+not(true) = false
+true and b2 = false
+true and not(b2) = true
+true or b2 = true
+true xor b2 = true
+true xor not(b2) = false
+
+conditionalExpression()
+-----------------------
+x2 = 10
+5 < x2 = true
+5 == x2 = false
+2*5 == x2 = true
+ifExpression()
+--------------
+x2 = 10
+if (5 < x2) { 5 }  else  { -x2 }  --> 5
+if (5 == x2) { 5 }  else  { -x2 }  --> -10
